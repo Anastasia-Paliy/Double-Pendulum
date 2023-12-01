@@ -1,0 +1,1245 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     58058,       1237]
+NotebookOptionsPosition[     57282,       1214]
+NotebookOutlinePosition[     57687,       1230]
+CellTagsIndexPosition[     57644,       1227]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ GraphicsBox[{
+   {Thickness[0.006095368972401687], StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.030601061313556804`, 0.8788604549431326}, {
+     1.3065619786262186`, 0.8816382327209104}}]}, 
+   {StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.408307520444242, 0.8824435548497616}, {0.49767705999559975`, 
+     0.7454500907974739}}]}, 
+   {EdgeForm[{Hue[1., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], FaceForm[{RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    DiskBox[{0.613888888888889, 0.5652777777777774}, \
+{0.026388888888888906, 0.025000000000000022}]}, 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{Hue[
+    0.6611111111111112, 1., 0.768518747166094], Opacity[0.92]}], EdgeForm[{
+    Hue[0.03334096284428168, 1., 0.9486686503395132], Opacity[0.92], 
+    Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{0.6152777777777779, 0.5402656386701663}, {0.6097222222222224, 
+     0.32568230533683273`}}]}, 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{Hue[
+    0.6777777777777777, 1., 0.9738263387429652], Opacity[0.92]}], EdgeForm[{
+    Hue[0.03334096284428168, 1., 0.9486686503395132], Opacity[0.92], 
+    Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{0.6161883895850724, 0.5644104125696231}, {0.49737722574245713`,
+      0.7466856968502086}}]}, 
+   {EdgeForm[{Hue[1., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], FaceForm[{RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    DiskBox[{1.0485564304461945, 0.2640419947506564}, \
+{0.026388888888889017, 0.02499999999999991}]}, 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{Hue[
+    0.6611111111111112, 1., 0.768518747166094], Opacity[0.92]}], EdgeForm[{
+    Hue[0.03334096284428168, 1., 0.9486686503395132], Opacity[0.92], 
+    Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{1.0509195408202547`, 0.282097550306212}, {1.0453639852646992`, 
+     0.0737642169728785}}]}, 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{GrayLevel[0.], 
+    Opacity[0.92]}], EdgeForm[{Hue[
+    0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{1.052723097112861, 0.26786143919510086`}, {1.052723097112861, 
+     0.39911143919510084`}}]}, 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{GrayLevel[0.], 
+    Opacity[0.92]}], EdgeForm[{Hue[
+    0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{1.0551581638232723`, 0.2583005249343834}, {0.8546373304899391, 
+     0.2583005249343834}}]}, 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{Hue[
+    0.6611111111111112, 1., 0.768518747166094], Opacity[0.92]}], EdgeForm[{
+    Hue[0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{1.0439973388743073`, 0.26543088363954526`}, {
+     0.8582565981335666, 0.39043088363954526`}}]}, 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{GrayLevel[0.], 
+    Opacity[0.92]}], EdgeForm[{Hue[
+    0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{0.6152777777777779, 0.5628406708595387}, {0.6152777777777779, 
+     0.7461740041928719}}]}, 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{GrayLevel[0.], 
+    Opacity[0.92]}], EdgeForm[{Hue[
+    0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{0.6153867102396515, 0.5625000000000001}, {0.48739106753812644`,
+      0.5625000000000001}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.8658254073438842, 0.3932086614173229}, {1.0519365184549954`, 
+     0.3932086614173229}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.8582786526684165, 0.2626531058617675}, {0.8582786526684165, 
+     0.3765419947506564}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.49583333333333357`, 0.7458333333333335}, {0.6152777777777779, 
+     0.7458333333333335}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.49027777777777803`, 0.7347222222222224}, {
+     0.49027777777777803`, 0.5652777777777779}}]}, InsetBox[
+    StyleBox[
+     TagBox[
+      RowBox[{
+       SubscriptBox["m", "2"], "g"}],
+      "RawBoxes"],
+     FontSize->14,
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {1.0055664916885392, 0.043296150481189954}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox[
+      RowBox[{
+       SubscriptBox["m", "1"], "g"}],
+      "RawBoxes"],
+     FontSize->14,
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.5570756780402452, 0.2902777777777783}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox[
+      SubscriptBox["T", "1"],
+      "RawBoxes"],
+     FontSize->14,
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.5486986001749783, 0.6711176727909011}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], 
+   InsetBox["", {0.9749453193350832, 0.3320975503062119}, {Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox[
+      RowBox[{
+       RowBox[{
+        SubscriptBox["T", "2"], "Cos", " ", 
+        SubscriptBox["\[Theta]", "2"]}], " ", "=", " ", 
+       RowBox[{
+        FractionBox[
+         SubscriptBox["T", "2"], 
+         SubscriptBox["l", "2"]], 
+        RowBox[{"(", 
+         RowBox[{
+          SubscriptBox["y", "2"], "-", 
+          SubscriptBox["y", "1"]}], ")"}]}]}],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[
+      1.]], {0.035575240594925756, 0.07127077865266906}, {Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox[
+      RowBox[{
+       RowBox[{
+        SubscriptBox["T", "2"], "Sin", " ", 
+        SubscriptBox["\[Theta]", "2"]}], " ", "=", " ", 
+       RowBox[{
+        FractionBox[
+         SubscriptBox["T", "2"], 
+         SubscriptBox["l", "2"]], 
+        RowBox[{"(", 
+         RowBox[{
+          SubscriptBox["x", "2"], "-", 
+          SubscriptBox["x", "1"]}], ")"}]}]}],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[
+      1.]], {0.037270341207349206, 0.18183202099737705}, {
+    Left, Baseline}, {0.39887401574803133, 0.10630446194225728}, {{1., 0.}, {
+    0., 1.}},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox[
+      RowBox[{
+       RowBox[{
+        SubscriptBox["T", "1"], "Cos", " ", 
+        SubscriptBox["\[Theta]", "1"]}], "=", 
+       RowBox[{
+        FractionBox[
+         SubscriptBox["T", "1"], 
+         SubscriptBox["l", "1"]], 
+        SubscriptBox["y", "1"]}]}],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.051443569553805704, 0.5892388451443571}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox[
+      RowBox[{
+       RowBox[{
+        SubscriptBox["T", "1"], "Sin", " ", 
+        SubscriptBox["\[Theta]", "1"]}], "=", 
+       RowBox[{
+        FractionBox[
+         SubscriptBox["T", "1"], 
+         SubscriptBox["l", "1"]], 
+        SubscriptBox["x", "1"]}]}],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.05826771653543311, 0.7188976377952759}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox[
+      SubscriptBox["\[Theta]", "1"],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.4383202099737533, 0.757217847769029}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["\[Theta]", "2"],
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {
+      0.014670299962174435`, -0.020675855173624802`}}}], InsetBox[
+    StyleBox[
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{
+        SubscriptBox["x", "1"], ",", 
+        SubscriptBox["y", "1"]}], ")"}],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.6446194225721784, 0.5902887139107613}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{
+        SubscriptBox["x", "2"], ",", 
+        SubscriptBox["y", "2"]}], ")"}],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {1.0976377952755907, 0.25223097112860915}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"0", ",", "0"}], ")"}],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.34305449442582064, 0.8407863621007771}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[Cell[TextData[Cell[BoxData[
+      FormBox[
+       SubscriptBox["T", "2"], TraditionalForm]],ExpressionUUID->
+      "568d9735-cfd7-47b9-9882-fdfbc784c04b"]],
+      GeneratedCell->False,
+      CellAutoOverwrite->False,
+      CellBaseline->Baseline,
+      TextAlignment->Left,ExpressionUUID->
+      "9fbc5df0-5814-4c56-b389-1f3ac05c610f"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.9645341207349082, 0.3321784776902892}, {
+    Left, Baseline}, {0.040485564304461825, 0.053858267716535534}, {{1., 
+    0.}, {0., 1.}},
+    Alignment->{Left, Top}], 
+   GeometricTransformationBox[
+    InsetBox["", {0.6795986439195101, 0.5128390201224848}, {Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {
+      0.014670299962174435`, -0.020675855173624802`}}}], 
+   {StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.8124590728325416, 0.42602862778282213`}, {0.8556373597665947, 
+     0.3955689453476102}}]}, GeometricTransformationBox[InsetBox[
+     StyleBox[Cell[TextData[Cell[BoxData[
+       FormBox[
+        SubscriptBox["T", "2"], TraditionalForm]],ExpressionUUID->
+       "2cc0a44d-1e1c-40b4-b9d7-50d4e5b9a078"]],
+       GeneratedCell->False,
+       CellAutoOverwrite->False,
+       CellBaseline->Baseline,
+       TextAlignment->Left,ExpressionUUID->
+       "35aa6f09-e173-4b88-aef8-b5f19cba34ae"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.7283136482939634, 0.4880839895013125}, {
+     Left, Baseline}, {0.040485564304461825, 0.053858267716535534}, {{1., 
+     0.}, {0., 1.}},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {
+      0.014670299962174435`, -0.020675855173624802`}}}], 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{GrayLevel[0.], 
+    Opacity[0.92]}], EdgeForm[{Hue[
+    0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{0.4125447336920337, 0.8830903774477495}, {0.4125447336920337, 
+     0.9954559688455991}}]}, 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{GrayLevel[0.], 
+    Opacity[0.92]}], EdgeForm[{Hue[
+    0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{1.1327700587577887`, 0.8838773168012067}, {1.3332374225317631`,
+      0.879246910533136}}]}, {{
+     {Thickness[0.0017579236139586912`], 
+      Dashing[{0, Small, 0, Small, Medium, Small}], 
+      JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{GrayLevel[0.], 
+      Opacity[0.92]}], EdgeForm[{Hue[
+      0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+      0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+      JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+      RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+      ArrowBox[{{0.6162867992680489, 0.5510663686817145}, {0.6141117899601225,
+        0.41983439150194923`}}]}, 
+     {Thickness[0.0017579236139586912`], 
+      Dashing[{0, Small, 0, Small, Medium, Small}], 
+      JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{GrayLevel[0.], 
+      Opacity[0.92]}], EdgeForm[{Hue[
+      0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+      0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+      JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+      RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+      ArrowBox[{{0.6140452986247749, 0.5606433839269199}, {0.8145660117307505,
+        0.5604238021302188}}]}, 
+     {Thickness[0.0017579236139586912`], 
+      Dashing[{0, Small, 0, Small, Medium, Small}], 
+      JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{Hue[
+      0.6611111111111112, 1., 0.768518747166094], Opacity[0.92]}], EdgeForm[{
+      Hue[0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], 
+      Thickness[0.0017579236139586912`], 
+      Dashing[{0, Small, 0, Small, Medium, Small}], 
+      JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+      RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+      ArrowBox[{{0.6251983087308328, 0.5535008077544253}, {0.8108020559470133,
+        0.4282974859525208}}]}}, {
+     {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+      Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[
+      1.]}], EdgeForm[None], 
+      LineBox[{{0.799665855150469, 0.4255319012942297}, {0.6135548556270007, 
+       0.4257357036198258}}]}, 
+     {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+      Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[
+      1.]}], EdgeForm[None], 
+      LineBox[{{0.8109199254101245, 0.5560752112688658}, {0.8107952105541625, 
+       0.44218639066495247`}}]}}}, InsetBox[
+    StyleBox[
+     TagBox["y",
+      "RawBoxes"],
+     FontSize->14,
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.4432755775577558, 0.9615841584158416}, {
+    Left, Baseline}, {0.023811881188118767, 0.04316831683168314}, {{1., 0.}, {
+    0., 1.}},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox["x",
+      "RawBoxes"],
+     FontSize->14,
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {1.295156765676568, 0.8233663366336634}, {
+    Left, Baseline}, {0.023811881188118767, 0.04316831683168314}, {{1., 0.}, {
+    0., 1.}},
+    Alignment->{Left, Top}], 
+   {Thickness[0.006095368972401687], StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.4126729607706174, 0.7524792004307046}, {0.4128760149720228, 
+     0.9435782016166099}}]}},
+  ContentSelectable->True,
+  ImagePadding->{{0., 0.}, {0., 0.}},
+  ImageSize->{690.8000000000001, 505.},
+  PlotRange->{{0., 1.3333333333333335`}, {0., 1.}},
+  PlotRangePadding->Automatic]], "Picture",
+ CellChangeTimes->{{3.907151861446331*^9, 3.907151978164343*^9}, {
+  3.907152014174906*^9, 3.9071520518131685`*^9}, {3.9071520835691843`*^9, 
+  3.9071522668153496`*^9}, {3.907152305979413*^9, 3.907152326221302*^9}, {
+  3.9071524118884215`*^9, 3.9071524563415685`*^9}, {3.90715470043517*^9, 
+  3.9071549607394037`*^9}, {3.9071550085215282`*^9, 3.9071550299513617`*^9}, {
+  3.907155062684011*^9, 3.907155112131154*^9}, {3.9071552059994774`*^9, 
+  3.9071554459952993`*^9}, {3.9071555856761436`*^9, 3.9071557002243137`*^9}, {
+  3.907959377566567*^9, 3.9079594374223633`*^9}},
+ CellID->673411478,ExpressionUUID->"5c390f24-9b77-4c76-9cb5-cbc2744ad273"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {Thickness[0.006095368972401687], StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.2871603728160523, 0.8788604549431326}, {1.306742166277984, 
+     0.8816382327209104}}]}, 
+   {Thickness[0.002], StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.41073003650774353`, 0.8814806567880653}, {0.6178342303376292, 
+     0.562481590494881}}]}, 
+   {EdgeForm[{RGBColor[0.592157, 0.101961, 0.917647], Opacity[1.], 
+    AbsoluteThickness[1]}], EdgeForm[None], FaceForm[{RGBColor[
+    0.592157, 0.101961, 0.917647], Opacity[0.25]}], 
+    DiskBox[{0.6174532453245326, 0.5629015401540153}, \
+{0.026388888888888906, 0.025000000000000022}]}, 
+   {Thickness[0.003], JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{
+    RGBColor[1, 0, 0], Opacity[1.]}], EdgeForm[{Hue[
+    0.03334096284428168, 1., 0.9486686503395132], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{0.6176540154015402, 0.5639980258758898}, {0.6120984598459847, 
+     0.32460170588000137`}}]}, 
+   {EdgeForm[{RGBColor[0.592157, 0.101961, 0.917647], Opacity[1.], 
+    AbsoluteThickness[1]}], EdgeForm[None], FaceForm[{RGBColor[
+    0.592157, 0.101961, 0.917647], Opacity[0.25]}], 
+    DiskBox[{1.0497445492580757, 0.2592895195031313}, \
+{0.026388888888889017, 0.0249999999999998}]}, 
+   {Thickness[0.003], JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{
+    RGBColor[1, 0, 0.501961], Opacity[1.]}], EdgeForm[{Hue[
+    0.03334096284428168, 1., 0.9486686503395132], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{1.0509195408202547`, 0.2610629463629772}, {1.0453639852646992`,
+      0.12112583944473802`}}]}, 
+   {Thickness[0.002], JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{
+    RGBColor[1, 0.501961, 0], Opacity[1.]}], EdgeForm[{Hue[
+    0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{0.6169631753991142, 0.5643738629055729}, {0.498277163779856, 
+     0.7467402918602539}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.8658254073438842, 0.3932086614173229}, {1.0519365184549954`, 
+     0.3932086614173229}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.8630311279159414, 0.2674055811092917}, {0.8630311279159414, 
+     0.3812944699981806}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.5005858085808584, 0.7446452145214525}, {0.6200302530253028, 
+     0.7446452145214525}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.4974064906490652, 0.7370984598459845}, {0.4974064906490652, 
+     0.56765401540154}}]}, 
+   StyleBox[InsetBox[
+     TagBox[
+      RowBox[{
+       SubscriptBox["m", "2"], "g"}],
+      "RawBoxes"], {1.0150714421835887, 0.09200902176831871}, {Left, Baseline},
+     Alignment->{Left, Top}],
+    FontSize->12,
+    FontWeight->Bold,
+    Magnification->1.25,
+    FontColor->RGBColor[1, 0, 0.501961],
+    Background->GrayLevel[1.]], 
+   StyleBox[InsetBox[
+     TagBox[
+      RowBox[{
+       SubscriptBox["m", "1"], "g"}],
+      "RawBoxes"], {0.5784618166541063, 0.2985946094609462}, {Left, Baseline},
+     Alignment->{Left, Top}],
+    FontSize->12,
+    FontWeight->Bold,
+    Magnification->1.25,
+    FontColor->RGBColor[1, 0, 0],
+    Background->GrayLevel[1.]], 
+   StyleBox[InsetBox[
+     TagBox[
+      SubscriptBox["T", "1"],
+      "RawBoxes"], {0.5546391942343842, 0.6806226232859501}, {Left, Baseline},
+     Alignment->{Left, Top}],
+    FontSize->12,
+    FontWeight->"Bold",
+    Magnification->1.25,
+    FontColor->RGBColor[1, 0.501961, 0],
+    Background->GrayLevel[1.]], 
+   InsetBox["", {0.9749453193350832, 0.3320975503062119}, {Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox[
+      SubscriptBox["\[Theta]", "1"],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.43000337829058505, 0.7762277487591278}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["\[Theta]", "2"],
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {
+      0.008729705902768503, -0.0016659541835262193`}}}], InsetBox[
+    StyleBox[
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{
+        SubscriptBox["x", "1"], ",", 
+        SubscriptBox["y", "1"]}], ")"}],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.6446194225721784, 0.5902887139107613}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{
+        SubscriptBox["x", "2"], ",", 
+        SubscriptBox["y", "2"]}], ")"}],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {1.081004131909254, 0.2807458226137577}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], 
+   StyleBox[InsetBox[Cell[TextData[Cell[BoxData[
+      FormBox[
+       SubscriptBox["T", "2"], TraditionalForm]],ExpressionUUID->
+      "c2d08413-6195-4d24-bfb8-eb0ebd951e97"]],
+      GeneratedCell->False,
+      CellAutoOverwrite->False,
+      CellBaseline->Baseline,
+      TextAlignment->Left,ExpressionUUID->
+      "5b323341-bd88-49e4-9ad4-9842510fbf20"], \
+{0.9645341207349082, 0.3321784776902892}, {
+     Left, Baseline}, {0.040485564304461825, 0.053858267716535534}, {{1., 
+     0.}, {0., 1.}},
+     Alignment->{Left, Top}],
+    FontWeight->"Bold",
+    Magnification->1.25,
+    FontColor->RGBColor[0, 0.533333, 0.85098],
+    Background->GrayLevel[1.]], 
+   GeometricTransformationBox[
+    InsetBox["", {0.6795986439195101, 0.5128390201224848}, {Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {
+      0.014670299962174435`, -0.020675855173624802`}}}], 
+   {Thickness[0.002], StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.6168725654997202, 0.5625024007869848}, {1.052649426381652, 
+     0.25761790165631093`}}]}, 
+   StyleBox[GeometricTransformationBox[
+     StyleBox[InsetBox[Cell[TextData[Cell[BoxData[
+        FormBox[
+         SubscriptBox["T", "2"], TraditionalForm]],ExpressionUUID->
+        "b82bcc94-a639-4116-9db1-3d62fac02fb6"]],
+        GeneratedCell->False,
+        CellAutoOverwrite->False,
+        CellBaseline->Baseline,
+        TextAlignment->Left,ExpressionUUID->
+        "86a2636c-f5de-47d8-8458-f63fde63c435"], \
+{0.7283136482939634, 0.4880839895013125}, {
+       Left, Baseline}, {0.040485564304461825, 0.053858267716535534}, {{1., 
+       0.}, {0., 1.}},
+       Alignment->{Left, Top}],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {{{{
+       0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+       0.9995652639504438}}, {
+       0.008729705902768503, -0.0016659541835259972`}}}],
+    FontSize->12,
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0.533333, 0.85098]], 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{GrayLevel[0.], 
+    Opacity[0.92]}], EdgeForm[{Hue[
+    0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{0.4125447336920337, 0.8830903774477495}, {0.4125447336920337, 
+     0.9954559688455991}}]}, 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{GrayLevel[0.], 
+    Opacity[0.92]}], EdgeForm[{Hue[
+    0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{1.1327700587577887`, 0.8838773168012067}, {1.3332374225317631`,
+      0.879246910533136}}]}, {
+    {Thickness[0.003], JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{
+     RGBColor[0, 0.533333, 0.85098], Opacity[1.]}], EdgeForm[{Hue[
+     0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+     0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+     JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+     RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+     ArrowBox[{{0.6171662323792606, 0.5623745505979239}, {0.8111020656204664, 
+      0.4261619418883013}}]}, {
+     {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+      Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[
+      1.]}], EdgeForm[None], 
+      LineBox[{{0.799665855150469, 0.4255319012942297}, {0.6135548556270007, 
+       0.4257357036198258}}]}, 
+     {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+      Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[
+      1.]}], EdgeForm[None], 
+      LineBox[{{0.8109199254101245, 0.5560304679494256}, {0.8107952105541625, 
+       0.42800372478778503`}}]}}}, InsetBox[
+    StyleBox[
+     TagBox["y",
+      "RawBoxes"],
+     FontSize->14,
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.4432755775577558, 0.9615841584158416}, {
+    Left, Baseline}, {0.023811881188118767, 0.04316831683168314}, {{1., 0.}, {
+    0., 1.}},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox["x",
+      "RawBoxes"],
+     FontSize->14,
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {1.295156765676568, 0.8233663366336634}, {
+    Left, Baseline}, {0.023811881188118767, 0.04316831683168314}, {{1., 0.}, {
+    0., 1.}},
+    Alignment->{Left, Top}], 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.49801155115511586`, 0.5630610561056101}, {0.6174559955995602, 
+     0.5630610561056101}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.8048143700019541, 0.5625616042645262}, {0.6187033704784859, 
+     0.5627654065901223}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.6185946094609465, 0.7353162816281621}, {0.6185946094609465, 
+     0.5658718371837176}}]}, 
+   {Thickness[0.003], JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{
+    RGBColor[0, 0.533333, 0.85098], Opacity[1.]}], EdgeForm[{Hue[
+    0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{1.0503819592682926`, 0.25934023435774894`}, {
+     0.8577071268783376, 0.3944905813979509}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.8642412489280429, 0.25756509706088604`}, {1.050352360039154, 
+     0.25756509706088604`}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{1.0511179452121049`, 0.3904859134939799}, {1.050993230356143, 
+     0.26245917033233934`}}]}, GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["\[Theta]", "2"],
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {0.4475148185118829, -0.30646198792653323`}}}], 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{1.0513480155855441`, 0.2571394880808282}, {1.1554546954177491`, 
+     0.18262330371335872`}}]}, 
+   {Thickness[0.006095368972401687], StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.41287098057259763`, 0.7367311705619599}, {
+     0.41307403477400306`, 0.9502892296191985}}]}, 
+   GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[")",
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{4.858228314988857, 
+      1.7118154465553348`}, {-9.85605917736426, 
+      0.8437845312039225}}, {-3.4998937715751905`, 6.701251047768469}}}], 
+   GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[")",
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{6.4755536731806735`, 
+      1.541872299757422}, {-8.87758353911818, 
+      1.1246840753763803`}}, {-4.24577019770859, 5.647965165043413}}}], 
+   GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[")",
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{6.4755536731806735`, 
+      1.541872299757422}, {-8.87758353911818, 
+      1.1246840753763803`}}, {-3.814483068995718, 5.343806749201828}}}]},
+  BoxID -> "Text9",
+  ContentSelectable->True,
+  ImagePadding->{{0., 0.}, {0., 0.}},
+  ImageSize->{690.8000000000001, 505.},
+  PlotRange->{{0., 1.3333333333333335`}, {0., 1.}},
+  PlotRangePadding->Automatic]], "Picture",
+ CellChangeTimes->{{3.907151861446331*^9, 3.907151978164343*^9}, {
+   3.907152014174906*^9, 3.9071520518131685`*^9}, {3.9071520835691843`*^9, 
+   3.9071522668153496`*^9}, {3.907152305979413*^9, 3.907152326221302*^9}, {
+   3.9071524118884215`*^9, 3.9071524563415685`*^9}, {3.90715470043517*^9, 
+   3.9071549607394037`*^9}, {3.9071550085215282`*^9, 
+   3.9071550299513617`*^9}, {3.907155062684011*^9, 3.907155112131154*^9}, {
+   3.9071552059994774`*^9, 3.9071554459952993`*^9}, {3.9071555856761436`*^9, 
+   3.9071557002243137`*^9}, {3.9071558345668983`*^9, 3.90715601307217*^9}, {
+   3.9071560500219507`*^9, 3.907156354952278*^9}, 3.9079176325537663`*^9, {
+   3.907959446587758*^9, 3.9079594839576945`*^9}, 3.9096585516329746`*^9, {
+   3.909658605051381*^9, 3.9096586114255943`*^9}, 3.9096586498552685`*^9, {
+   3.909658810949239*^9, 3.9096588131617794`*^9}, {3.9096588804550734`*^9, 
+   3.9096588827303505`*^9}, {3.909659081777978*^9, 3.909659124953889*^9}, {
+   3.9096592065605793`*^9, 3.909659274025375*^9}, {3.9096593261929445`*^9, 
+   3.9096593427314835`*^9}, {3.909659710634206*^9, 3.909659746348146*^9}, {
+   3.909659790035138*^9, 3.9096598086398716`*^9}, 3.909659882323694*^9},
+ CellID->117178902,ExpressionUUID->"30d5b49e-a6ae-4fa4-ac79-0066db312b73"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {Thickness[0.006095368972401687], StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.31918037462304477`, 0.8788604549431326}, {1.1346084213149505`,
+      0.8816382327209104}}]}, 
+   {Thickness[0.002], StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.41073003650774353`, 0.8814806567880653}, {0.6178342303376292, 
+     0.562481590494881}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.6804788726904188, 0.25776311686286746`}, {0.86658998380153, 
+     0.25776311686286746`}}]}, 
+   InsetBox["", {0.9749453193350832, 0.3320975503062119}, {Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox[
+      SubscriptBox["\[Theta]", "1"],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.4383202099737533, 0.757217847769029}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["\[Theta]", "2"],
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {
+      0.008729705902768503, -0.0016659541835262193`}}}], InsetBox[
+    StyleBox[
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{
+        SubscriptBox["x", "1"], ",", 
+        SubscriptBox["y", "1"]}], ")"}],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.6446194225721784, 0.5902887139107613}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{
+        SubscriptBox["x", "2"], ",", 
+        SubscriptBox["y", "2"]}], ")"}],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {1.0976377952755907, 0.25223097112860915}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], 
+   GeometricTransformationBox[
+    InsetBox["", {0.6795986439195101, 0.5128390201224848}, {Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {
+      0.014670299962174435`, -0.020675855173624802`}}}], 
+   {Thickness[0.002], StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.6168725654997202, 0.5625024007869848}, {1.052649426381652, 
+     0.25761790165631093`}}]}, 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{GrayLevel[0.], 
+    Opacity[0.92]}], EdgeForm[{Hue[
+    0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{0.4125447336920337, 0.8830903774477495}, {0.4125447336920337, 
+     0.9954559688455991}}]}, 
+   {Thickness[0.0017579236139586912`], 
+    Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}], StrokeForm[{GrayLevel[0.], 
+    Opacity[0.92]}], EdgeForm[{Hue[
+    0.6611123826962692, 1., 0.7685206378271153], Opacity[0.92], Thickness[
+    0.0017579236139586912`], Dashing[{0, Small, 0, Small, Medium, Small}], 
+    JoinForm[{"Miter", 7.6000000000000005`}]}], EdgeForm[None], FaceForm[{
+    RGBColor[0.750454, 0.0792859, 0.15021], Opacity[0.65]}], 
+    ArrowBox[{{0.9795027320251155, 0.8838773168012067}, {1.17997009579909, 
+     0.879246910533136}}]}, InsetBox[
+    StyleBox[
+     TagBox["y",
+      "RawBoxes"],
+     FontSize->14,
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.4432755775577558, 0.9615841584158416}, {
+    Left, Baseline}, {0.023811881188118767, 0.04316831683168314}, {{1., 0.}, {
+    0., 1.}},
+    Alignment->{Left, Top}], InsetBox[
+    StyleBox[
+     TagBox["x",
+      "RawBoxes"],
+     FontSize->14,
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {1.1917904290429047, 0.845940594059406}, {
+    Left, Baseline}, {0.023811881188118767, 0.04316831683168314}, {{1., 0.}, {
+    0., 1.}},
+    Alignment->{Left, Top}], 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.616218371837184, 0.7412568756875672}, {0.616218371837184, 
+     0.5718124312431226}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.8678056053636864, 0.25756509706088604`}, {1.0539167164747976`,
+      0.25756509706088604`}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{1.0511179452121049`, 0.3904859134939799}, {1.050993230356143, 
+     0.26245917033233934`}}]}, 
+   {Thickness[0.006095368972401687], StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.41287098057259763`, 0.186933483165742}, {0.41307403477400306`,
+      0.9497598637704586}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.6162183718371841, 0.8697717271727149}, {0.6162183718371841, 
+     0.7003272827282704}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.6733292214871025, 0.25800714881898124`}, {
+     0.48721822196363446`, 0.25821095114457737`}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.6162183718371842, 0.557098459845982}, {0.6162183718371842, 
+     0.38765401540153754`}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.6166144114411446, 0.4307618261826158}, {0.6166144114411446, 
+     0.2613173817381713}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.4278056053636866, 0.2581591564668265}, {0.6139167164747977, 
+     0.2581591564668265}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.4270135261557657, 0.5631096515163312}, {0.6131246372668768, 
+     0.5631096515163312}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{1.0506738173817385`, 0.5648212321232093}, {1.0506738173817385`, 
+     0.39537678767876483`}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{1.049881738173818, 0.7378905390539021}, {1.049881738173818, 
+     0.5684460946094576}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{1.0502777777777783`, 0.8812568756875657}, {1.0502777777777783`, 
+     0.7118124312431212}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.6194887736805181, 0.5619215327044499}, {0.8055998847916293, 
+     0.5619215327044499}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.8099838231854688, 0.5615254931004893}, {0.9960949342965799, 
+     0.5615254931004893}}]}, 
+   {Thickness[0.0010839269140212027`], Dashing[{Small, Small}], StrokeForm[{
+    Hue[0., 0., 0.], Opacity[1.]}], EdgeForm[{Hue[0., 0., 0.], Opacity[1.]}], 
+    EdgeForm[None], 
+    LineBox[{{0.8579046152646767, 0.5617235129024695}, {1.0440157263757879`, 
+     0.5617235129024695}}]}, GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["L", "2"],
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {0.22296036306633843`, -0.06408575030277097}}}], 
+   GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["L", "1"],
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {-0.08951488445841393, 0.2495776160338623}}}], 
+   GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["y", "1"],
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {-0.2661485478247506, 0.05551821009326807}}}], 
+   GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["y", "2"],
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {-0.2598119141613843, -0.24784812654039534`}}}], 
+   GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["x", "1"],
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {-0.013475797016096622`, 0.40169185398321505`}}}],
+    GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["x", "2"],
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {0.41781133169677453`, 0.40406809160697754`}}}], 
+   GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[")",
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{4.858228314988857, 
+      1.7118154465553348`}, {-9.85605917736426, 
+      0.8437845312039225}}, {-3.500424765773918, 6.701579536335042}}}], 
+   GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[")",
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{6.4755536731806735`, 
+      1.541872299757422}, {-8.87758353911818, 
+      1.1246840753763803`}}, {-4.247353309364209, 5.651467124558265}}}], 
+   {EdgeForm[{Hue[1., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], FaceForm[{RGBColor[0.592157, 0.101961, 0.917647], Opacity[1.]}], 
+    DiskBox[{0.6162651265126515, 0.5629015401540153}, \
+{0.026388888888888906, 0.025000000000000022}]}, 
+   {EdgeForm[{Hue[1., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], FaceForm[{RGBColor[0.592157, 0.101961, 0.917647], Opacity[1.]}], 
+    DiskBox[{1.0497445492580757, 0.2592895195031313}, \
+{0.026388888888889017, 0.0249999999999998}]}},
+  ContentSelectable->True,
+  ImagePadding->{{0., 0.}, {0., 0.}},
+  ImageSize->{690.8000000000001, 505.},
+  PlotRange->{{0., 1.3333333333333335`}, {0., 1.}},
+  PlotRangePadding->Automatic]], "Picture",
+ CellChangeTimes->{{3.907151861446331*^9, 3.907151978164343*^9}, {
+   3.907152014174906*^9, 3.9071520518131685`*^9}, {3.9071520835691843`*^9, 
+   3.9071522668153496`*^9}, {3.907152305979413*^9, 3.907152326221302*^9}, {
+   3.9071524118884215`*^9, 3.9071524563415685`*^9}, {3.90715470043517*^9, 
+   3.9071549607394037`*^9}, {3.9071550085215282`*^9, 
+   3.9071550299513617`*^9}, {3.907155062684011*^9, 3.907155112131154*^9}, {
+   3.9071552059994774`*^9, 3.9071554459952993`*^9}, {3.9071555856761436`*^9, 
+   3.9071557002243137`*^9}, {3.9071558345668983`*^9, 3.90715601307217*^9}, {
+   3.9071560500219507`*^9, 3.907156354952278*^9}, 3.9079176325537663`*^9, {
+   3.907959446587758*^9, 3.9079594839576945`*^9}, {3.9079601491102633`*^9, 
+   3.90796059096276*^9}, {3.9079606378932185`*^9, 3.907960751306382*^9}, {
+   3.9079607832323036`*^9, 3.907960841310052*^9}, {3.9079609386663947`*^9, 
+   3.907960949837289*^9}, {3.9096580533114214`*^9, 3.9096581274535074`*^9}, 
+   3.909658267597231*^9, {3.9096583045044537`*^9, 3.9096583056366663`*^9}},
+ CellID->111685064,ExpressionUUID->"1596c476-245f-45ba-b8a6-f732d6c5541b"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {Thickness[0.006095368972401687], StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.030551149182737502`, 0.8788604549431326}, {
+     1.1344057102067147`, 0.8816382327209104}}]}, 
+   {StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.5146812433071137, 0.8767115301661496}, {0.655512095111436, 
+     0.5470791616631925}}]}, InsetBox[
+    StyleBox[
+     TagBox[
+      SubscriptBox["m", "1"],
+      "RawBoxes"],
+     Magnification->1.25,
+     Background->GrayLevel[1.]], {0.6426766456173177, 0.4910792339076431}, {
+    Left, Baseline},
+    Alignment->{Left, Top}], GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["m", "2"],
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {0.19288812174435266`, -0.2392897165597636}}}], 
+   {StrokeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[{
+    Hue[-8.954894877446877*^-20, 1.6118810779404376`*^-17, 
+     3.31804323410034*^-18], Opacity[1.]}], EdgeForm[None], 
+    LineBox[{{0.6565712547172757, 0.5467309382015292}, {0.8258112665754824, 
+     0.3249905051119797}}]}, 
+   {EdgeForm[{Hue[1., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], FaceForm[{RGBColor[0.592157, 0.101961, 0.917647], Opacity[1.]}], 
+    DiskBox[{0.6554730473047309, 0.5474559955995602}, \
+{0.026388888888888906, 0.025000000000000133}]}, 
+   GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["L", "2"],
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {0.13741580861089292`, -0.05695703743148384}}}], 
+   GeometricTransformationBox[InsetBox[
+     StyleBox[
+      TagBox[
+       SubscriptBox["L", "1"],
+       "RawBoxes"],
+      Magnification->1.25,
+      Background->GrayLevel[1.]], {0.6377952755905512, 0.4816272965879269}, {
+     Left, Baseline},
+     Alignment->{Left, Top}], {{{{
+      0.9995652639504438, -0.029483607372229756`}, {0.029483607372229756`, 
+      0.9995652639504438}}, {-0.02060399336930522, 0.21393405167742685`}}}], 
+   {EdgeForm[{Hue[1., 0., 0.], Opacity[1.], AbsoluteThickness[1]}], EdgeForm[
+    None], FaceForm[{RGBColor[0.592157, 0.101961, 0.917647], Opacity[1.]}], 
+    DiskBox[{0.8240019750006504, 0.325824172968478}, \
+{0.026388888888888795, 0.0249999999999998}]}},
+  ContentSelectable->True,
+  ImagePadding->{{0., 0.}, {0., 0.}},
+  ImageSize->{690.8000000000001, 505.},
+  PlotRange->{{0., 1.3333333333333335`}, {0., 1.}},
+  PlotRangePadding->Automatic]], "Picture",
+ CellChangeTimes->{{3.907151861446331*^9, 3.907151978164343*^9}, {
+   3.907152014174906*^9, 3.9071520518131685`*^9}, {3.9071520835691843`*^9, 
+   3.9071522668153496`*^9}, {3.907152305979413*^9, 3.907152326221302*^9}, {
+   3.9071524118884215`*^9, 3.9071524563415685`*^9}, {3.90715470043517*^9, 
+   3.9071549607394037`*^9}, {3.9071550085215282`*^9, 
+   3.9071550299513617`*^9}, {3.907155062684011*^9, 3.907155112131154*^9}, {
+   3.9071552059994774`*^9, 3.9071554459952993`*^9}, {3.9071555856761436`*^9, 
+   3.9071557002243137`*^9}, {3.9071558345668983`*^9, 3.90715601307217*^9}, {
+   3.9071560500219507`*^9, 3.907156354952278*^9}, 3.9079176325537663`*^9, {
+   3.907959446587758*^9, 3.9079594839576945`*^9}, {3.9079601491102633`*^9, 
+   3.90796059096276*^9}, {3.9079606378932185`*^9, 3.907960751306382*^9}, {
+   3.9079607832323036`*^9, 3.907960841310052*^9}, {3.9079609386663947`*^9, 
+   3.907960949837289*^9}, {3.9096550067195826`*^9, 3.9096552109414835`*^9}, {
+   3.9096553203545127`*^9, 3.9096553903470592`*^9}, {3.909655527003853*^9, 
+   3.909655536521299*^9}},
+ CellID->22477892,ExpressionUUID->"a71b2f13-69c2-41e1-8512-7fa8a026d93d"]
+}, Open  ]]
+},
+WindowSize->{1141.2, 574.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"ee6c5c43-69cc-4161-8762-0fcf5e52465f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 19701, 423, 513, "Picture",ExpressionUUID->"5c390f24-9b77-4c76-9cb5-cbc2744ad273",
+ CellID->673411478],
+Cell[20284, 447, 17508, 360, 513, "Picture",ExpressionUUID->"30d5b49e-a6ae-4fa4-ac79-0066db312b73",
+ CellID->117178902],
+Cell[37795, 809, 14927, 309, 513, "Picture",ExpressionUUID->"1596c476-245f-45ba-b8a6-f732d6c5541b",
+ CellID->111685064],
+Cell[52725, 1120, 4541, 91, 541, "Picture",ExpressionUUID->"a71b2f13-69c2-41e1-8512-7fa8a026d93d",
+ CellID->22477892]
+}, Open  ]]
+}
+]
+*)
+
