@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.8.4.202307181708" AlpVersion="8.8.2">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.9.0.202404161236" AlpVersion="8.9.0">
 <Model>
 	<Id>1698858813301</Id>
 	<Name><![CDATA[Double pendulum small angle]]></Name>
@@ -111,7 +111,7 @@
 				<Variable Class="StockVariable">
 					<Id>1698919536214</Id>
 					<Name><![CDATA[θ1]]></Name>
-					<X>100</X><Y>700</Y>
+					<X>50</X><Y>400</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -128,7 +128,7 @@
 				<Variable Class="StockVariable">
 					<Id>1698919632807</Id>
 					<Name><![CDATA[θ2]]></Name>
-					<X>500</X><Y>700</Y>
+					<X>450</X><Y>400</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -145,7 +145,7 @@
 				<Variable Class="StockVariable">
 					<Id>1698919662920</Id>
 					<Name><![CDATA[ω1]]></Name>
-					<X>200</X><Y>700</Y>
+					<X>150</X><Y>400</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -154,7 +154,7 @@
 					<EquationStyle>custom</EquationStyle>
 					<Width>40</Width>
 					<Height>40</Height>
-						<Expression><![CDATA[g/(L1*m1)*(m2*θ2-(m1+m2)*θ1)]]></Expression>
+						<Expression><![CDATA[g*(m2*θ2-(m1+m2)*θ1)/(L1*m1)]]></Expression>
 						<InitialValue><![CDATA[0]]></InitialValue>
 						<Color/>
 					</Properties>
@@ -162,7 +162,7 @@
 				<Variable Class="StockVariable">
 					<Id>1698919691613</Id>
 					<Name><![CDATA[ω2]]></Name>
-					<X>400</X><Y>700</Y>
+					<X>350</X><Y>400</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -171,7 +171,7 @@
 					<EquationStyle>custom</EquationStyle>
 					<Width>40</Width>
 					<Height>40</Height>
-						<Expression><![CDATA[g*(m1+m2)/(L1*m1)*(θ1-θ2)]]></Expression>
+						<Expression><![CDATA[g*(m1+m2)*(θ1-θ2)/(L2*m1)]]></Expression>
 						<InitialValue><![CDATA[0]]></InitialValue>
 						<Color/>
 					</Properties>
@@ -179,7 +179,7 @@
 				<Variable Class="Parameter">
 					<Id>1698919722672</Id>
 					<Name><![CDATA[m1]]></Name>
-					<X>300</X><Y>600</Y>
+					<X>250</X><Y>300</Y>
 					<Label><X>10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -189,7 +189,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[1]]></Code>
+							<Code><![CDATA[2]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1698919722670</Id>
@@ -203,7 +203,7 @@
 				<Variable Class="Parameter">
 					<Id>1698919739280</Id>
 					<Name><![CDATA[m2]]></Name>
-					<X>300</X><Y>650</Y>
+					<X>250</X><Y>350</Y>
 					<Label><X>10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -227,7 +227,7 @@
 				<Variable Class="Parameter">
 					<Id>1698919744461</Id>
 					<Name><![CDATA[g]]></Name>
-					<X>300</X><Y>700</Y>
+					<X>250</X><Y>400</Y>
 					<Label><X>10</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -251,7 +251,7 @@
 				<Variable Class="Parameter">
 					<Id>1698919748991</Id>
 					<Name><![CDATA[L1]]></Name>
-					<X>300</X><Y>750</Y>
+					<X>250</X><Y>450</Y>
 					<Label><X>10</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -261,7 +261,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[1]]></Code>
+							<Code><![CDATA[0.1]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1698919748989</Id>
@@ -275,7 +275,7 @@
 				<Variable Class="Parameter">
 					<Id>1698919752972</Id>
 					<Name><![CDATA[L2]]></Name>
-					<X>300</X><Y>800</Y>
+					<X>250</X><Y>500</Y>
 					<Label><X>10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -285,7 +285,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[1]]></Code>
+							<Code><![CDATA[0.02]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1698919752970</Id>
@@ -299,7 +299,7 @@
 				<Variable Class="Parameter">
 					<Id>1698919807229</Id>
 					<Name><![CDATA[θ10]]></Name>
-					<X>100</X><Y>800</Y>
+					<X>50</X><Y>500</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -309,7 +309,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[0.4]]></Code>
+							<Code><![CDATA[0.1]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1698919807227</Id>
@@ -323,7 +323,7 @@
 				<Variable Class="Parameter">
 					<Id>1698919862519</Id>
 					<Name><![CDATA[θ20]]></Name>
-					<X>500</X><Y>600</Y>
+					<X>450</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -333,7 +333,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[0.1]]></Code>
+							<Code><![CDATA[0]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1698919862517</Id>
@@ -352,7 +352,7 @@
 					<Direction><X>-100</X><Y>0</Y></Direction>
 					<Id>1698919775225</Id>
 					<Name><![CDATA[ω1 - θ1]]></Name>
-					<X>200</X><Y>700</Y>
+					<X>150</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -367,7 +367,7 @@
 					<Direction><X>100</X><Y>0</Y></Direction>
 					<Id>1698919802535</Id>
 					<Name><![CDATA[ω2 - θ2]]></Name>
-					<X>400</X><Y>700</Y>
+					<X>350</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -382,7 +382,7 @@
 					<Direction><X>0</X><Y>-100</Y></Direction>
 					<Id>1698919858852</Id>
 					<Name><![CDATA[θ10 - θ1]]></Name>
-					<X>100</X><Y>800</Y>
+					<X>50</X><Y>500</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -397,7 +397,7 @@
 					<Direction><X>0</X><Y>100</Y></Direction>
 					<Id>1698919886532</Id>
 					<Name><![CDATA[θ20 - θ2]]></Name>
-					<X>500</X><Y>600</Y>
+					<X>450</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -412,7 +412,7 @@
 					<Direction><X>-100</X><Y>-50</Y></Direction>
 					<Id>1698920007795</Id>
 					<Name><![CDATA[L1 - ω1]]></Name>
-					<X>300</X><Y>750</Y>
+					<X>250</X><Y>450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -427,7 +427,7 @@
 					<Direction><X>-100</X><Y>0</Y></Direction>
 					<Id>1698920009527</Id>
 					<Name><![CDATA[g - ω1]]></Name>
-					<X>300</X><Y>700</Y>
+					<X>250</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -442,7 +442,7 @@
 					<Direction><X>100</X><Y>0</Y></Direction>
 					<Id>1698920011058</Id>
 					<Name><![CDATA[θ1 - ω1]]></Name>
-					<X>100</X><Y>700</Y>
+					<X>50</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -457,7 +457,7 @@
 					<Direction><X>-300</X><Y>0</Y></Direction>
 					<Id>1698920012563</Id>
 					<Name><![CDATA[θ2 - ω1]]></Name>
-					<X>500</X><Y>700</Y>
+					<X>450</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -472,7 +472,7 @@
 					<Direction><X>-100</X><Y>50</Y></Direction>
 					<Id>1698920014085</Id>
 					<Name><![CDATA[m2 - ω1]]></Name>
-					<X>300</X><Y>650</Y>
+					<X>250</X><Y>350</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -487,22 +487,7 @@
 					<Direction><X>-100</X><Y>100</Y></Direction>
 					<Id>1698920016433</Id>
 					<Name><![CDATA[m1 - ω1]]></Name>
-					<X>300</X><Y>600</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<Color/>
-					<LineWidth>1</LineWidth>
-					<Delay>false</Delay>
-				</Link>
-				<Link SourceId="1698919748991" TargetId="1698919691613" Polarity="null">
-					<Height>-14.987</Height>
-					<PolarityPosition>0.95</PolarityPosition>
-					<Direction><X>100</X><Y>-50</Y></Direction>
-					<Id>1698920087355</Id>
-					<Name><![CDATA[L1 - ω2]]></Name>
-					<X>300</X><Y>750</Y>
+					<X>250</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -517,7 +502,7 @@
 					<Direction><X>100</X><Y>0</Y></Direction>
 					<Id>1698920095868</Id>
 					<Name><![CDATA[g - ω2]]></Name>
-					<X>300</X><Y>700</Y>
+					<X>250</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -527,12 +512,12 @@
 					<Delay>false</Delay>
 				</Link>
 				<Link SourceId="1698919536214" TargetId="1698919691613" Polarity="null">
-					<Height>142.333</Height>
+					<Height>149.013</Height>
 					<PolarityPosition>0.95</PolarityPosition>
 					<Direction><X>300</X><Y>0</Y></Direction>
 					<Id>1698920097633</Id>
 					<Name><![CDATA[θ1 - ω2]]></Name>
-					<X>100</X><Y>700</Y>
+					<X>50</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -547,7 +532,7 @@
 					<Direction><X>-100</X><Y>0</Y></Direction>
 					<Id>1698920100369</Id>
 					<Name><![CDATA[θ2 - ω2]]></Name>
-					<X>500</X><Y>700</Y>
+					<X>450</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -562,7 +547,7 @@
 					<Direction><X>-100</X><Y>0</Y></Direction>
 					<Id>1698920100369</Id>
 					<Name><![CDATA[θ2 - ω2]]></Name>
-					<X>500</X><Y>700</Y>
+					<X>450</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -577,7 +562,7 @@
 					<Direction><X>-100</X><Y>0</Y></Direction>
 					<Id>1698920100369</Id>
 					<Name><![CDATA[θ2 - ω2]]></Name>
-					<X>500</X><Y>700</Y>
+					<X>450</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -592,7 +577,7 @@
 					<Direction><X>-100</X><Y>0</Y></Direction>
 					<Id>1698920100369</Id>
 					<Name><![CDATA[θ2 - ω2]]></Name>
-					<X>500</X><Y>700</Y>
+					<X>450</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -607,7 +592,7 @@
 					<Direction><X>-100</X><Y>0</Y></Direction>
 					<Id>1698920100369</Id>
 					<Name><![CDATA[θ2 - ω2]]></Name>
-					<X>500</X><Y>700</Y>
+					<X>450</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -622,7 +607,7 @@
 					<Direction><X>-100</X><Y>0</Y></Direction>
 					<Id>1698920100369</Id>
 					<Name><![CDATA[θ2 - ω2]]></Name>
-					<X>500</X><Y>700</Y>
+					<X>450</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -637,7 +622,7 @@
 					<Direction><X>100</X><Y>50</Y></Direction>
 					<Id>1698920110856</Id>
 					<Name><![CDATA[m2 - ω2]]></Name>
-					<X>300</X><Y>650</Y>
+					<X>250</X><Y>350</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -652,7 +637,22 @@
 					<Direction><X>100</X><Y>100</Y></Direction>
 					<Id>1698920114226</Id>
 					<Name><![CDATA[m1 - ω2]]></Name>
-					<X>300</X><Y>600</Y>
+					<X>250</X><Y>300</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Color/>
+					<LineWidth>1</LineWidth>
+					<Delay>false</Delay>
+				</Link>
+				<Link SourceId="1698919752972" TargetId="1698919691613" Polarity="null">
+					<Height>-34.651</Height>
+					<PolarityPosition>0.95</PolarityPosition>
+					<Direction><X>100</X><Y>-100</Y></Direction>
+					<Id>1742744943675</Id>
+					<Name><![CDATA[L2 - ω2]]></Name>
+					<X>250</X><Y>500</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -702,7 +702,7 @@
     			<Plot>
 					<Id>1698920150303</Id>
 					<Name><![CDATA[plot]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>740</X><Y>60</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -720,15 +720,15 @@
 						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 					</RecurrenceCode>
 					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>530</Width>
-					<Height>510</Height>
+					<Width>760</Width>
+					<Height>700</Height>
 					<BackgroundColor/>
 					<BorderColor/>
 					<ChartArea>
 						<XOffset>50</XOffset>
 						<YOffset>30</YOffset>
-						<Width>450</Width>
-						<Height>420</Height>
+						<Width>680</Width>
+						<Height>610</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
 						<GridColor/>
@@ -768,7 +768,7 @@
 				<Text>
 					<Id>1698921287675</Id>
 					<Name><![CDATA[text11]]></Name>
-					<X>710</X><Y>780</Y>
+					<X>600</X><Y>480</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -791,7 +791,7 @@
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1698921287697</Id>
 					<Name><![CDATA[slider2]]></Name>
-					<X>660</X><Y>700</Y>
+					<X>550</X><Y>400</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -813,7 +813,7 @@
 				<Text>
 					<Id>1698921287713</Id>
 					<Name><![CDATA[text4]]></Name>
-					<X>760</X><Y>680</Y>
+					<X>650</X><Y>380</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -836,7 +836,7 @@
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1698921287719</Id>
 					<Name><![CDATA[slider3]]></Name>
-					<X>660</X><Y>750</Y>
+					<X>550</X><Y>450</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -858,7 +858,7 @@
 				<Text>
 					<Id>1698921287724</Id>
 					<Name><![CDATA[text5]]></Name>
-					<X>710</X><Y>680</Y>
+					<X>600</X><Y>380</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -880,7 +880,7 @@
 				<Text>
 					<Id>1698921287727</Id>
 					<Name><![CDATA[text9]]></Name>
-					<X>660</X><Y>780</Y>
+					<X>550</X><Y>480</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -902,7 +902,7 @@
 				<Text>
 					<Id>1698921287729</Id>
 					<Name><![CDATA[text1]]></Name>
-					<X>760</X><Y>630</Y>
+					<X>650</X><Y>330</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -925,7 +925,7 @@
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1698921287735</Id>
 					<Name><![CDATA[slider]]></Name>
-					<X>660</X><Y>600</Y>
+					<X>550</X><Y>300</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -947,7 +947,7 @@
 				<Text>
 					<Id>1698921287741</Id>
 					<Name><![CDATA[text3]]></Name>
-					<X>660</X><Y>680</Y>
+					<X>550</X><Y>380</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -969,7 +969,7 @@
 				<Text>
 					<Id>1698921287744</Id>
 					<Name><![CDATA[text7]]></Name>
-					<X>760</X><Y>730</Y>
+					<X>650</X><Y>430</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -991,7 +991,7 @@
 				<Text>
 					<Id>1698921287747</Id>
 					<Name><![CDATA[text10]]></Name>
-					<X>760</X><Y>780</Y>
+					<X>650</X><Y>480</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1013,7 +1013,7 @@
 				<Text>
 					<Id>1698921287749</Id>
 					<Name><![CDATA[text8]]></Name>
-					<X>710</X><Y>730</Y>
+					<X>600</X><Y>430</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1035,7 +1035,7 @@
 				<Text>
 					<Id>1698921287753</Id>
 					<Name><![CDATA[text12]]></Name>
-					<X>630</X><Y>610</Y>
+					<X>520</X><Y>310</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1056,7 +1056,7 @@
 				<Text>
 					<Id>1698921287756</Id>
 					<Name><![CDATA[text]]></Name>
-					<X>660</X><Y>630</Y>
+					<X>550</X><Y>330</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1078,7 +1078,7 @@
 				<Text>
 					<Id>1698921287760</Id>
 					<Name><![CDATA[text2]]></Name>
-					<X>710</X><Y>630</Y>
+					<X>600</X><Y>330</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1100,7 +1100,7 @@
 				<Text>
 					<Id>1698921287764</Id>
 					<Name><![CDATA[text14]]></Name>
-					<X>630</X><Y>710</Y>
+					<X>520</X><Y>410</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1121,7 +1121,7 @@
 				<Text>
 					<Id>1698921287766</Id>
 					<Name><![CDATA[text6]]></Name>
-					<X>660</X><Y>730</Y>
+					<X>550</X><Y>430</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1143,7 +1143,7 @@
 				<Text>
 					<Id>1698921287768</Id>
 					<Name><![CDATA[text15]]></Name>
-					<X>630</X><Y>760</Y>
+					<X>520</X><Y>460</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1165,7 +1165,7 @@
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1698921287771</Id>
 					<Name><![CDATA[slider1]]></Name>
-					<X>660</X><Y>650</Y>
+					<X>550</X><Y>350</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1187,7 +1187,7 @@
 				<Text>
 					<Id>1698921287774</Id>
 					<Name><![CDATA[text13]]></Name>
-					<X>630</X><Y>660</Y>
+					<X>520</X><Y>360</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1212,7 +1212,7 @@
 
 		</ActiveObjectClass>
 	</ActiveObjectClasses>	
-	<DifferentialEquationsMethod>EULER</DifferentialEquationsMethod>
+	<DifferentialEquationsMethod>RK4</DifferentialEquationsMethod>
 	<MixedEquationsMethod>RK45_NEWTON</MixedEquationsMethod>
 	<AlgebraicEquationsMethod>MODIFIED_NEWTON</AlgebraicEquationsMethod>
 	<AbsoluteAccuracy>1.0E-5</AbsoluteAccuracy>
@@ -1220,8 +1220,8 @@
 	<RelativeAccuracy>1.0E-5</RelativeAccuracy>
 	<TimeAccuracy>1.0E-5</TimeAccuracy>
 	<Frame>
-		<Width>1000</Width>
-		<Height>900</Height>
+		<Width>1500</Width>
+		<Height>800</Height>
 	</Frame>
 	<Database>
 		<Logging>false</Logging>
